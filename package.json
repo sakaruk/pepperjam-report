@@ -1,0 +1,27 @@
+{
+  "author": "@sakaruk/pepperjam-report",
+  "name": "pepperjam-report",
+  "description": "Pepperjam Affiliate Network Reports",
+  "keywords": [
+    "pepperjam",
+    "report"
+  ],
+  "version": "1.0.0",
+  "main": "./lib/pepperjam",
+  "dependencies": {
+    "request": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/sakaruk/pepperjam-report/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sakaruk/pepperjam-report"
+  },
+  "scripts": {
+    "test": "mocha --timeout 100000 -R spec"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
