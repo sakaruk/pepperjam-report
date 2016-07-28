@@ -4,7 +4,7 @@ Pepperjam Affiliate Network Reports.
 	//Loading the modules
 	var $pepperjamDetails = {
 		apiVersion : '20120402',
-		apiKey : 'b8f4768e2ac2ce07b11100b50463d70e2e008ab9e284de519b11b810ee081570'
+		apiKey : 'apikey'
 	}
 	var Pepperjam = require('./lib/pepperjam').Affiliate($pepperjamDetails)
 
